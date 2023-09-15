@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    height: 250px;
+    border: none;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    border: none;
+}
+
+.label {
+    margin: 8px 16px;
+    border: none;
+    display: block;
+    width: 150px;
+    height: 40px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.userInput {
+    width: 150px;
+    height: 40px;
+    padding: 8px 16px;
+    border: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+
+
+.submitButton {
+    margin: 16px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.paragraph {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: grey;
+}
